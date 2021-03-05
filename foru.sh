@@ -9,6 +9,10 @@ echo ""
 apt update 
 apt upgrade -y 
 pkg install figlet -y
+pkg install python
+pkg install python2
+pip install pyfiglet
+pip install termcolor
 pkg install ncurses-utils -y 
 pkg install ruby -y 
 gem install lolcat 
